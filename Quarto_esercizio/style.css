@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 8px solid rgba(87, 87, 87, 0.212);
+}
+.buttons {
+    width: 450px;
+    height: 30px;
+    margin-right: 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo {
+    width: 200px;
+    height: 28px;
+    margin-left: 160px;
+    cursor: pointer;
+}
+.search {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+.bookmarker{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+.notification{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+.membership{
+    width: 260px;
+    height: 30px;
+    font-size: 24px;
+    text-align: center;
+    border: 0.1px solid black;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.profile {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background-image: url(assets/logo_sion.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40px 40px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+section {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+   
+}
+.sectsx {
+    width: 1212px;
+    margin-left: 160px;
+    border-right: 2px solid rgba(87, 87, 87, 0.212);
+}
+.secthead {
+    width: 1000px;
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 90px;
+    border-bottom: 2px solid rgba(87, 87, 87, 0.212) ;
+    margin-bottom: 18px;
+}
+.foryou {
+    margin-left: 20px;
+}
+.arthead {
+    width: 700px;
+    display: flex;
+    justify-content: flex-start;
+}
+.usersimg {
+    width: 40px;
+    height: 40px;
+    margin-top: 34px;
+    background-image: url(assets/logo_sion.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 49px 49px;
+    border-radius: 34px;
+    cursor: pointer;
+}
+.userinfo {
+    width: 410px;
+    height: 35x;
+    margin-top: 42px;
+    margin-right: 36px;
+    margin-left: 4px;
+    font-size: 20px;
+}
+.userinfo span {
+    color: rgba(87, 87, 87, 0.568) ;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.artitle{
+    width: 700px;
+    font-size: 29px;
+    margin-top: 12px;
+}
+.artcontent {
+    font-size: 21px;
+    width: 920px;
+    height: 150px;
+    margin-top: 8px;
+    display: flex;
+    color:rgba(87, 87, 87, 0.74);
+}
+.articls {
+    width: 1000px;
+    margin-top: 10px;
+}
+.artimg {
+    width: 300px;
+    height: 260px;
+    align-self: flex-end;
+}
+.artfoot {
+    width: 700px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(56, 56, 56, 0.712);
+}
+.infopost {
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+.argument {
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    border: 0.2px solid rgba(128, 128, 128, 0.534);
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.534);
+}
+.infobuttons {
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 20px;
+    margin-right: 50px;
+}
+.addbook {
+    width: 23px;
+    height: 24px;
+    cursor: pointer;
+}
+.dots {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Definiamo lo stile della sezione destra */
+
+/* box twitter */
+.sectdx {
+    width: 400px;
+    margin-right: 150px;
+    align-self: flex-end;
+    height: 10px;
+    /* border: 1px solid rgba(87, 87, 87, 0.212); */
+}
+.twitter {
+    width: 400px;
+    height: 290px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 2px solid rgba(87, 87, 87, 0.212);
+}
+.dxseclogo {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.twitterlogo {
+    width: 50px;
+    height: 39px;
+    margin-bottom: 4px;
+}
+.add {
+    color: grey;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 33px;
+}
+.twitterinfo {
+    width: 400px;
+    height: 52px;
+    font-size: 22px;
+    text-align: center;
+}
+.twitterbutton {
+    width: 280px;
+    height: 50px;
+    margin-left: 65px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border: 0.5px solid grey;
+    border-radius: 40px;
+    margin-bottom: 50px;
+}
+.twitterbutton a {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 16px;
+    text-decoration: none;
+    color: black;
+}
+.twitterbutton img {
+    margin-top: 4px;
+}
+.mediumlogo {
+    width: 50px;
+    background-color: white;
+}
+.later {
+    width: 280px;
+    text-align: center;
+    margin-left: 65px;
+    font-size: 20px;
+    color: grey;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/* box recommended topics */
+.rectops {
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 70px;
+}
+.topics {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
+.rtops {
+    width: 170px;
+    font-size: 25px;
+    background-color: rgba(197, 197, 197, 0.678);
+    border: 1px solid rgba(197, 197, 197, 0.678);
+    border-radius: 100px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+/* box who to follow */
+.flwheader {
+    padding: 30px 40px;
+}
+
+.whotoflw {
+    width: 450px;
+    height: 90px;
+    font-size: 20px;
+    margin-left: 40px;
+    display: flex;
+}
+.profileimg {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.userprofile {
+    width: 60px;
+    height: 100px; 
+    margin-bottom: 50px;  
+}
+.flwbutton {
+    width: 100px;
+    height: 30px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border: 0.5px solid grey;
+    border-radius: 40px;
+}
+.profileinfo {
+    margin-right: 20px;
+}
+
+
+
+/* box salvati */
+.savedheader {
+    padding: 30px 40px;
+}
+.saved {
+    width: 400px;
+    height: 200px;
+}
