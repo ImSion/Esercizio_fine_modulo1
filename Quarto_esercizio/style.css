@@ -300,6 +300,7 @@ section {
     width: 50px;
     height: 50px;
     border-radius: 100px;
+    cursor: pointer;
 }
 .userprofile {
     width: 60px;
@@ -315,6 +316,7 @@ section {
     margin-top: 20px;
     border: 0.5px solid grey;
     border-radius: 40px;
+    cursor: pointer;
 }
 .profileinfo {
     margin-right: 20px;
@@ -326,7 +328,75 @@ section {
 .savedheader {
     padding: 30px 40px;
 }
-.saved {
+.savedhead {
+    width: 500px;
+    height: 50px;
+    display: flex;
+}
+.savedimg {
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+    background-image: url("https://picsum.photos/40/40?random");
+    border-radius: 30px;
+    cursor: pointer;
+}
+.savedinfo {
     width: 400px;
-    height: 200px;
+    height: 30x;
+    margin-top: 10px;
+    margin-left: 4px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.savedinfo span {
+    color: rgba(87, 87, 87, 0.568) ;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.savedartc {
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.savedfoot {
+    width: 700px;
+    height: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(56, 56, 56, 0.712);
+}
+.star {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;   
+}
+.seeall{
+    margin-left: 40px;
+    color: rgb(0, 204, 0);
+    font-size: 19px;
+}
+.endpagedx {
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.endpagedx span {
+    width: 70px;
+    color: rgba(87, 87, 87, 0.568);
+    font-size: 18;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 7px;
+    margin-left: 5px;
 }
