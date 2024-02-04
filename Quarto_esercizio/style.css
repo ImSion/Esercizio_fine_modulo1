@@ -11,6 +11,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     border-bottom: 8px solid rgba(87, 87, 87, 0.212);
+    position: fixed;
+    background-color: white ;
 }
 .buttons {
     width: 450px;
@@ -76,7 +78,7 @@ section {
     width: 1000px;
     font-size: 23px;
     font-weight: 600;
-    margin-top: 90px;
+    margin-top: 120px;
     border-bottom: 2px solid rgba(87, 87, 87, 0.212) ;
     margin-bottom: 18px;
 }
@@ -189,6 +191,7 @@ section {
     margin-right: 150px;
     align-self: flex-end;
     height: 10px;
+    margin-top: 90px;
     /* border: 1px solid rgba(87, 87, 87, 0.212); */
 }
 .twitter {
